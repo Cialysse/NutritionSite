@@ -1,0 +1,227 @@
+
+
+/* ----------------------------------------------------------------------------------------------------------
+
+                                ************* Table of Contents *************
+1.  =google fonts
+2.  =variables
+3.  =overrides variables for - theme dark
+4.  =base
+5.  =box
+6.  =customized nutrition classes
+7.  =animation keyframes
+8.  =section - padding, title
+9.  =buttons
+10. =page loader
+11. =circular img
+12. =pagination
+13. =breadcrumb
+14. =tabs
+15. =bubble animation
+16. =style switcher
+17. =header
+18. =footer
+19. =banner section
+20. =fun facts section
+21. =courses section
+22. =testimonials section
+23. =bai section
+24. =course details section
+25. =contact section
+------------------------------------------------------------------------------------------------------------- */
+
+/* -------------------- 
+1.  =google fonts 
+------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&family=Oxygen:wght@400;700&display=swap');
+
+/* -----------------------
+ 2.  =variables
+------------------- */
+:root {
+    --bridgewater-bay: hsl(197, 39%, 91%);
+    --white: hsl(0, 0%, 100%);
+    --WHITE: hsl(0, 0%, 100%);
+    --BLACK: hsl(0, 0%, 0%);
+    --black-90: hsl(0, 0%, 10%);
+    --black-70: hsl(0, 0%, 30%);
+    --black-alpha-40: hsla(0, 0%, 0%, 0.4);
+    --ghost: hsl(247, 10%, 82%);
+    --havelock: hsl(218, 65%, 67%);
+    --light-purple: hsl(259, 57%, 73%);
+    --blue-haze: hsl(261, 21%, 78%);
+    --select-box-bg-color: hsl(0, 0%, 100%);
+    --border-color-1: hsl(0, 0%, 90%);
+}
+
+/* --------------------------- 
+3.  =overrides variables for - theme dark 
+--------------------- */
+
+/* ------------------------
+ 4.  =base
+-------------------------- */
+body {
+    background-color: var(--bridgewater-bay);
+    font-family: 'Cairo', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--black-70);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+a {
+    color: var(--havelock);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--havelock);
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+::selection {
+    color: var(--WHITE);
+    background-color: var(--havelock);
+}
+
+/* --------------------- 
+5.  =box
+---------------------- */
+
+/* ---------------------------
+ 6.  =customized nutrition classes
+------------------------- */
+
+/* -------------------------- 
+7.  =animation keyframes
+------------------------ */
+
+/* --------------------------- 
+8.  =section - padding, title
+---------------------- */
+
+/* --------------------- 
+9.  =buttons
+---------------------- */
+
+/* --------------------------- 
+10. =page loader
+------------------------- */
+
+/* ---------------------------- 
+11. =circular img
+ ------------------- */
+
+/* ---------------------- 
+12. =pagination
+ ------------------------ */
+
+/* ---------------------------- 
+13. =breadcrumb 
+------------------------- */
+
+/* ------------------------- 
+14. =tabs
+ ------------------------ */
+
+/* --------------------------- 
+15. =bubble animation 
+--------------------- */
+
+/* ------------------------------- 
+16. =style switcher 
+--------------------------- */
+
+/* --------------------- 
+17. =header
+ ------------------------ */
+ .header {
+     border-bottom: 1px solid var(--border-color-2);
+ }
+
+ .header-logo {
+     font-size: 26px;
+     text-transform: uppercase;
+     font-weight: 700;
+     color: var(--black-70);
+ }
+
+ .header-logo span {
+     color: var(--light-purple);
+ }
+
+ .header .menu-item{
+     display: inline-block;
+     margin-left: 40px;
+     position: relative;
+ }
+
+ .header .menu-item > a {
+     display: block;
+     padding: 24px 0;
+     font-weight: 400;
+     color: var(--black-90);
+     text-transform: capitalize;
+     transition: color 0.3s ease;
+ }
+
+ .header .menu-item > a i {
+     font-size: 13px;
+     margin-left: 3px;
+     pointer-events: none;
+ }
+
+ .header .sub-menu {
+     position: absolute;
+     background-color: var(--white);
+     left: 0;
+ }
+
+ .header-backdrop,
+ .header-close-btn,
+ .header-hamburger-btn {
+     display: none;
+ }
+
+/* ------------------------- 
+18. =footer 
+---------------------- */
+
+/* --------------------------------- 
+19. =banner section 
+------------------------- */
+
+/* ------------------------- 
+20. =fun facts section 
+------------------------- */
+
+/* ---------------------------- 
+21. =courses section
+ -------------------------- */
+
+/* --------------------- 
+22. =testimonials section 
+--------------------------- */
+
+/* -------------------- 
+23. =bai section
+ ------------------- */
+
+/* --------------------------- 
+24. =course details section 
+------------------- */
+
+/* ------------------------------ 
+25. =contact section 
+----------------- */
