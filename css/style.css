@@ -46,7 +46,11 @@
     --black-90: hsl(0, 0%, 10%);
     --black-70: hsl(0, 0%, 30%);
     --black-alpha-40: hsla(0, 0%, 0%, 0.4);
-    --ghost: hsl(247, 10%, 82%);
+    --ghost: hsl(44, 46%, 69%);
+    --san-marino: hsl(225, 45%, 50%);
+    --polo-blue: hsl(224, 46%, 69%);
+    --sugar-tooth: hsl(344, 46%, 69%);
+    --light-capri-green: hsl(164, 46%, 69%);
     --havelock: hsl(218, 65%, 67%);
     --light-purple: hsl(259, 57%, 73%);
     --blue-haze: hsl(261, 21%, 78%);
@@ -129,6 +133,25 @@ h1,h2,h3,h4,h5,h6 {
 /* --------------------------- 
 8.  =section - padding, title
 ---------------------- */
+.section-padding {
+    padding: 60px 0;
+}
+
+.section-title {
+    margin-bottom: 40px;
+}
+
+.section-title .title {
+    font-size: 20px;
+    color: var(--havelock);
+    text-transform: capitalize;
+}
+
+.section-title .sub-title {
+    font-size: 35px;
+    font-weight: 600;
+    color: var(--black-90);
+}
 
 /* --------------------- 
 9.  =buttons
@@ -299,7 +322,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .fun-facts-item .style-1 {
-    color: var(--black-70);
+    color: var(--light-capri-green);
 }
 
 .fun-facts-item .style-2 {
@@ -307,11 +330,11 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .fun-facts-item .style-3 {
-    color: var(--blue-haze);
+    color: var(--ghost);
 }
 
 .fun-facts-item .style-4 {
-    color: var(--ghost);
+    color: var(--sugar-tooth);
 }
 
 /* ---------------------------- 
