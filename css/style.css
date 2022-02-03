@@ -99,6 +99,10 @@ h1,h2,h3,h4,h5,h6 {
     line-height: 1.3;
 }
 
+h3 {
+    font-size: 20px;
+}
+
 ::selection {
     color: var(--WHITE);
     background-color: var(--havelock);
@@ -337,15 +341,72 @@ h1,h2,h3,h4,h5,h6 {
     color: var(--sugar-tooth);
 }
 
-.instructor-img {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-}
 
 /* ---------------------------- 
 21. =courses section
  -------------------------- */
+ .courses-item {
+     margin-bottom: 30px;
+     position: relative;
+ }
+
+ .courses-item .img-box img {
+     width: 100%;
+     border-radius: 5px;
+ }
+
+ .courses-item .link {
+     color: var(--black-70);
+     display: inline-block;
+ }
+
+ .courses-item .title {
+     text-transform: capitalize;
+     margin: 15px 0;
+     transition: color 0.3s ease;
+ }
+
+ .instructor-img {
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+ .courses-item:hover .title {
+     color: var(--havelock);
+ }
+
+ .courses-item .instructor {
+     text-transform: capitalize;
+     margin: 0 0 12px;
+ }
+
+ .courses-item .average-rating {
+     font-weight: 600;
+     color: var(--sugar-tooth);
+ }
+
+ .courses-item .average-stars i {
+     color: var(--sugar-tooth);
+ }
+
+ .courses-item .rating {
+     font-size: 14px;
+ }
+ .courses-item .price {
+     position: absolute;
+     right: 15px;
+     top: 15px;
+     background-color: var(--havelock);
+     color: var(--WHITE);
+     padding: 4px 8px;
+     border-radius: 4px;
+ }
+
+ .course-img {
+     width: 165px;
+     height: 165px;
+ }
 
 /* --------------------- 
 22. =testimonials section 
